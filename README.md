@@ -34,20 +34,22 @@ At Glovo, our aim is to give everyone easy access to anything in their city. As 
 In the end, when running your code, you should have a result like this (doesn’t have to match exactly, feel free to name the fields differently and/or use arrays/objects to contain lists):
 
 <b>Cocktails beginning with G:</b>
-Total: x
-Names: “Cocktail A”, “Cocktail B” ....
+``Total: x
+Names: “Cocktail A”, “Cocktail B” ....``
+
 <b>Cocktails with more than 4 ingredients:</b>
-Gin Sour Gin Daisy
-Gin Sling
+``Gin Sour Gin Daisy
+Gin Sling``
+
 <b>Cocktails with just id/name/ingredients:</b>
-{ name: “Cocktail B”, id: 47328, ingredients: [“vodka”, “apple juice”, ...] }, { name: “Cocktail D”, id: 12398, ingredients: [“gin”, “tomato juice”, ...] }
+``{ name: “Cocktail B”, id: 47328, ingredients: [“vodka”, “apple juice”, ...] }, { name: “Cocktail D”, id: 12398, ingredients: [“gin”, “tomato juice”, ...] }``
+
 <b>Cocktails with ingredient quantities:</b>
-{ name: “Cocktail B”, id: 47328, ingredients: [{ name: “vodka”, quantity: “1 oz” }, ...] },
-{ name: “Cocktail D”, id: 12398, ingredients: [{ name: “gin”, quantity: “1/2 oz”}], ...] }
+``{ name: “Cocktail B”, id: 47328, ingredients: [{ name: “vodka”, quantity: “1 oz” }, ...] },
+{ name: “Cocktail D”, id: 12398, ingredients: [{ name: “gin”, quantity: “1/2 oz”}], ...] }``
+
 <b>Alcoholic / Non-alcoholic cocktails:</b>
-Alcoholic:
-{ name: “Cocktail B”, id: 47328, ingredients: [{ name: “vodka”, quantity: “1 oz” }, ...] },
-...
-Non-Alcoholic:
-{ name: “Cocktail E”, id: 82349, ingredients: [{ name: “lime juice”, quantity: “1 oz” }, ...] },
-...
+<b>Alcoholic:</b>
+``{ name: “Cocktail B”, id: 47328, ingredients: [{ name: “vodka”, quantity: “1 oz” }, ...] }, ...``
+<b>Non-Alcoholic:</b>
+``{ name: “Cocktail E”, id: 82349, ingredients: [{ name: “lime juice”, quantity: “1 oz” }, ...] }, ...``
