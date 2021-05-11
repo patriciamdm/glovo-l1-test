@@ -13,43 +13,36 @@
 
 At Glovo, our aim is to give everyone easy access to anything in their city. As I’m sure you know, we’re experts in bringing delicious food to your door. Wouldn’t it be great to accompany this food with some exotic cocktails?! Your job is to find some cocktails and look up the ingredients we need to make them so that we can include them in our app.
 
-1. Take a look at The Cocktail DB public API https://www.thecocktaildb.com/api.php. You can see some example queries in the documentation so check it out a bit
-2. Since we’re Glovo, we want to keep our cocktails in theme with the company. Fetch all the cocktails which have a name beginning with “G”. Check the API documentation on how to do this
-3. Log the names of all the cocktails found as well as the total number
-4. Cocktailsshouldbeextravagant,right?Let’sjustkeepthecocktailsthat
-   have more than 4 ingredients. Log the name for each of the results
-5. The results are not very easy to read, can you help us to parse the list so
-   it’s a bit easier to read. For each cocktail, we only need the id, name, and
-   an array of the ingredients. Log the results
-6. Ooops,weforgotabouttheingredientquantities.Updatetheparsed
-   list but instead of just saving the ingredients in the array, save the
-   ingredient as an object with its name and quantity. Log the results
-7. We want to be able to offer our customers both alcoholic and
-   non-alcoholic cocktails. Separate the results into two lists based on this.
-   Log the results
-8. Great!We’redone!
+1. Take a look at The Cocktail DB public API https://www.thecocktaildb.com/api.php. You can see some example queries in the documentation so check it out a bit.
+2. Since we’re Glovo, we want to keep our cocktails in theme with the company. Fetch all the cocktails which have a name beginning with “G”. Check the API documentation on how to do this.
+3. Log the names of all the cocktails found as well as the total number.
+4. Cocktails should be extravagant, right? Let’s just keep the cocktails that have more than 4 ingredients. Log the name for each of the results.
+5. The results are not very easy to read, can you help us to parse the list so it’s a bit easier to read. For each cocktail, we only need the id, name, and an array of the ingredients. Log the results.
+6. Ooops, we forgot about the ingredient quantities. Update the parsed list but instead of just saving the ingredients in the array, save the ingredient as an object with its name and quantity. Log the results.
+7. We want to be able to offer our customers both alcoholic and non-alcoholic cocktails. Separate the results into two lists based on this. Log the results.
+8. Great! We’redone!
 
 ### Results
 
 In the end, when running your code, you should have a result like this (doesn’t have to match exactly, feel free to name the fields differently and/or use arrays/objects to contain lists):
 
-<b>Cocktails beginning with G:</b>
+<b>Cocktails beginning with G:</b><br>
 ``Total: x
 Names: “Cocktail A”, “Cocktail B” ....``
 
-<b>Cocktails with more than 4 ingredients:</b>
+<b>Cocktails with more than 4 ingredients:</b><br>
 ``Gin Sour Gin Daisy
 Gin Sling``
 
-<b>Cocktails with just id/name/ingredients:</b>
+<b>Cocktails with just id/name/ingredients:</b><br>
 ``{ name: “Cocktail B”, id: 47328, ingredients: [“vodka”, “apple juice”, ...] }, { name: “Cocktail D”, id: 12398, ingredients: [“gin”, “tomato juice”, ...] }``
 
-<b>Cocktails with ingredient quantities:</b>
+<b>Cocktails with ingredient quantities:</b><br>
 ``{ name: “Cocktail B”, id: 47328, ingredients: [{ name: “vodka”, quantity: “1 oz” }, ...] },
 { name: “Cocktail D”, id: 12398, ingredients: [{ name: “gin”, quantity: “1/2 oz”}], ...] }``
 
-<b>Alcoholic / Non-alcoholic cocktails:</b>
-<b>Alcoholic:</b>
+<b>Alcoholic / Non-alcoholic cocktails:</b><br>
+<b>Alcoholic:</b><br>
 ``{ name: “Cocktail B”, id: 47328, ingredients: [{ name: “vodka”, quantity: “1 oz” }, ...] }, ...``
-<b>Non-Alcoholic:</b>
+<b>Non-Alcoholic:</b><br>
 ``{ name: “Cocktail E”, id: 82349, ingredients: [{ name: “lime juice”, quantity: “1 oz” }, ...] }, ...``
