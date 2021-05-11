@@ -20,7 +20,7 @@ At Glovo, our aim is to give everyone easy access to anything in their city. As 
 5. The results are not very easy to read, can you help us to parse the list so it’s a bit easier to read. For each cocktail, we only need the id, name, and an array of the ingredients. Log the results.
 6. Ooops, we forgot about the ingredient quantities. Update the parsed list but instead of just saving the ingredients in the array, save the ingredient as an object with its name and quantity. Log the results.
 7. We want to be able to offer our customers both alcoholic and non-alcoholic cocktails. Separate the results into two lists based on this. Log the results.
-8. Great! We’redone!
+8. Great! We’re done!
 
 ### Results
 
@@ -43,6 +43,6 @@ Gin Sling``
 
 <b>Alcoholic / Non-alcoholic cocktails:</b><br>
 <b>Alcoholic:</b><br>
-``{ name: “Cocktail B”, id: 47328, ingredients: [{ name: “vodka”, quantity: “1 oz” }, ...] }, ...``
+``{ name: “Cocktail B”, id: 47328, ingredients: [{ name: “vodka”, quantity: “1 oz” }, ...] }, ...``<br>
 <b>Non-Alcoholic:</b><br>
 ``{ name: “Cocktail E”, id: 82349, ingredients: [{ name: “lime juice”, quantity: “1 oz” }, ...] }, ...``
